@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".data_base"
+    android:padding="14dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/ID"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:hint="Enter Id for Search"
+            android:paddingLeft="16dp"
+            />
+        <EditText
+            android:id="@+id/NAME"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:hint="Enter Name"
+            android:paddingLeft="16dp"
+            />
+        <EditText
+            android:id="@+id/PHONE"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/background_dark"
+            android:textSize="25sp"
+            android:hint="Enter Phone Number"
+            android:paddingLeft="16dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/show"
+        android:background="@drawable/sub"
+        android:text="SUBMIT"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_light"
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/search"
+        android:background="@drawable/sub"
+        android:text="SERACH"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_light"
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="350dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
